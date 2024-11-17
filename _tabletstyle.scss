@@ -1,0 +1,96 @@
+@media(max-width: 1024px) and (min-width: 768px) {
+    .center {
+        padding-left: calc(50% - 368px);
+        padding-right: calc(50% - 368px);
+    }
+    .top {
+        gap: 89px;
+        &__photo {
+            height: 368px;
+            margin-left: 50px;
+        }
+        &__slogan {
+            margin-top: 138.58px;
+            justify-content: start;
+            gap: 4px;
+            font-size: 24px;
+        }
+        &__slogan_big {
+            font-weight: 900;
+            font-size: 44px;
+        }
+    }
+    .opportunities {
+        grid-template-columns: repeat(3, 232px);
+        grid-template-rows: 167.62px 116px;
+        gap: 19.5px;
+
+        margin-bottom: 110px;
+
+        &__card {
+            padding: 59px 0;
+        }
+        &__card1 {
+            background: url(images/offer1.png) 0 0 / 100% 100%;
+        }
+        &__card2 {
+            background: url(images/offer2.jpeg) 0 0 / 100% 100%;
+        }
+        &__card3 {
+            background: url(images/offer3.jpeg) 0 0 / 100% 100%;
+        }
+        &__card4 {
+            grid-area: span 1 / span 3;
+            background: url(images/offer4.jpeg) 0 0 / 100% 100%;
+            padding: 33px 0;
+        }
+    }
+    .products {
+        &__title {
+            margin-bottom: 3.3px;
+        }
+        &_subtitle {
+            margin-bottom: 74px;
+        }
+        &__cards {
+            grid-template-columns: repeat(2, 360px);
+            grid-template-rows: repeat(3, 581px);
+            gap: 16px;
+            margin-bottom: 33px;
+        }
+        &__text {
+            margin-top: 25.35px;
+        }
+        &__browse {
+            margin-bottom: 64.5px;
+        }
+    }
+    .features {
+        flex-direction: column;
+        align-items: center;
+        gap: 48.37px;
+
+        padding-top: 48px;
+        padding-bottom: 64px;
+    }
+    .subscribe {
+        padding-top: 64px;
+        padding-bottom: 140px;
+
+        gap: 48px;
+        flex-direction: column;
+        justify-content: center;
+        background: url("images/subscribe__background.jpeg") -350px 0 / auto 100%;
+
+        &__info {
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+            max-width: 359.5px;
+            align-items: center;
+        }
+        &__title {
+            margin-bottom: 27px;
+        }
+    }
+}
